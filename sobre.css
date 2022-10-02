@@ -1,0 +1,208 @@
+/* } estilização do html e body */
+html,body{
+    background-color: rgba(53, 7, 7, 0.966);
+    height: 185%;
+    margin: auto;
+}
+
+/* estilizaçãp do botão q retorna ao topo */
+.topo{
+    text-decoration: none;
+    position: relative;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+   
+  }
+  /* tamanho dos botões direcionadores */
+  a:hover{
+    opacity: 0.5;
+  }
+  .direcionador{
+    width: 150px;
+    height: 110px;
+    text-decoration: none;
+    margin-top: 850px;
+    margin-left:-1710px;
+    cursor: pointer;
+    padding-bottom: 10px;
+   
+    
+  }
+  .dire-2{
+    width: 160px;
+    height: 120px;
+    margin-left: 60px;
+    text-decoration: none;
+    margin-top: 500px;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+  .dire-3{
+    width: 160px;
+    height: 120px;
+    margin-left: 60px;
+    text-decoration: none;
+    margin-top: 500px;
+    cursor: pointer;
+    padding-bottom: 10px;
+  }
+ 
+  /* estilização titulo botoes direcionadores */
+  .bts{
+      position: relative;
+      font-size: medium;
+      font-family: Arial, Helvetica, sans-serif;
+      color: rgb(252, 251, 251);
+      text-align: left;
+      width: 450px;
+      height:200px;
+      line-height: 20px;
+      float: left;
+      text-shadow: 0 0 6px black;
+      margin-top: 700px;
+      text-align: left;
+      padding-right: 1300px;
+  
+  }
+  /* logo brasil no cabeçalho */
+  .Brasil{
+    margin-right: 10px;
+    margin-bottom: -10px;
+    width: 32px;
+    
+    
+}
+/* estilização P1 */
+.P1{
+    position: relative; 
+    color:white;
+    text-shadow: 0 0 6px black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    top: 10px;
+    left: 16px;
+    right: 30px;
+    width: 550px;
+    line-height: 22px;
+    height: 80px;
+    
+    
+}
+/* estilização p2 */
+.P2{
+    position: relative; 
+    color:white;
+    text-shadow: 0 0 6px black;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: medium;
+    top: 90px;
+    left: 15px;
+    right: 15px;
+    width: 550px;
+    line-height: 22px;
+    height: 30px;
+    float: left;
+    
+}
+/* posicionamento e estilização das imagens */
+.imagem{
+    width: 330px;
+    height: 310px;
+    border-radius: 5%;
+    margin-left: 610px;
+    margin-top: 390px;
+}
+.imagem2{
+    width: 400px;
+    height: 340px;
+    border-radius: 5%;
+    margin-left: 580px;
+    margin-top: -689px;
+    
+}
+.imagem3{
+    width: 300px;
+    height: 440px;
+    border-radius: 5%;
+}
+/* estilização cabeçalho */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;  
+  
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ /* estilização rodapé */
+  footer {
+    height: 160px; 
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+  .footerText {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+  }
+  .footerTextGrey {
+    margin: 0;
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .footerLink {
+    margin: 0;
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .mapsImage {
+    width: 130px;
+    height: 90px;
+    margin-top: 20px;
+    padding-left: 10px;
+  
+  }
+  .footerMapDescriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+ 
+  /* estilização da logo do site*/
+  .logo{
+    width: 160px;
+    height: 120px;
+  }

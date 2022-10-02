@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head> <!---configuraçoes do head, inclusão de favicon da página -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=11" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTATO</title>
+    <link rel="shortcurt-icon" href="icone.ico" type="img/x-icon">
+    <link rel="icon" href="iconepng.png" type="image/png">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="contato.css">
+    
+</head>
+<body> 
+  <b:if cond=’data:blog.pageType == &quot;item&quot;’> <!--  script para pop-up de mensagem -->
+<div id=’subscribe’>
+
+<SCRIPT language="JavaScript" type="text/javascript">alert("Use o navegador EDGE!!")</SCRIPT>
+
+</div>
+</b:if>
+    <div class="container navbar">
+        <div class="header"> <!-- Configuração do cabeçalho da página e âncoras para outras páginas.-->
+          <img class="logo" src="logoN.png" />
+          <div>
+            <a class="link" href="../home/index.html">HOME</a>
+            <a class="link" href="../servicos/servicos.html">SERVIÇOS</a>
+            <a class="link" href="../sobre/sobre.html">SOBRE</a>
+            <a class="link" href="../contato/contato.html">CONTATO</a>
+            <img class="Brasil" src="brasil.ico" style="width: 32px;">
+          </div>
+        </div>
+        
+      
+      <div class="form"> <!---Formulário-->
+          <form action="#">
+              <div class="form-header">
+                  <div class="title">
+                      <h1>Entre em contato:</h1> 
+                  </div>
+                
+              </div>
+
+              <div class="input-group">
+                  <div class="input-box">
+                      <label for="firstname">Primeiro Nome</label> <!---Inserção de dados no formulário-->
+                      <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                  </div>
+
+                  <div class="input-box">
+                      <label for="lastname">Sobrenome</label> <!---Inserção de dados no formulário-->
+                      <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                  </div>
+                  <div class="input-box"> <!---Inserção de dados no formulário-->
+                      <label for="email">E-mail</label>
+                      <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
+                  </div>
+
+                  <div class="input-box"> <!---Inserção de dados no formulário-->
+                      <label for="number">Celular</label>
+                      <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
+                  </div>
+
+              </div>
+
+              <div class="gender-inputs">
+                  <div class="gender-title">
+                      <h6>Gênero</h6> <!--Indicação em texto-->
+                  </div>
+
+                  <div class="gender-group">
+                      <div class="gender-input"> <!--seleção de gênero-->
+                          <input id="female" type="radio" name="gender">
+                          <label for="female">Feminino</label>
+                      </div>
+
+                      <div class="gender-input"> <!--seleção de gênero-->
+                          <input id="male" type="radio" name="gender">
+                          <label for="male">Masculino</label>
+                      </div>
+
+                      <div class="gender-input"> <!--seleção de gênero-->
+                          <input id="others" type="radio" name="gender">
+                          <label for="others">Outros</label>
+                      </div>
+
+                      <div class="gender-input"> <!--seleção de gênero-->
+                          <input id="none" type="radio" name="gender">
+                          <label for="none">Prefiro não dizer</label>
+                      </div>
+                  </div>
+              </div>
+
+               <div class="continue-button">           <!--botão continuar sem funcionalidade -->
+                  <button><a href="#">Continuar</a> </button>
+        
+          
+    </div>
+    <div class="bts">
+      <h2>Tá perdido? Tente um desses ai:</h2>
+      <br>
+    </div>
+    <div class="bts2"> <!---Icons redirecionadores-->
+    <a href=".//contato/contato.html">
+      <img class="direcionador" src="contato.ico">
+    </a>
+    <a class="h-img2" href="../servicos/servicos.html">
+      <img class="dire2" src="serviços.ico">
+    </a>
+    <a class="h-img3" href="../sobre/sobre.html">
+      <img class="dire3" src="sobre.ico">
+    </a>
+    </div>
+    <footer> <!---Desta parte pra baixo se trata do rodapé e imagens contidas, além das âncoras.-->
+        <div>
+          <p class="footerText">PESQUISA PELO SITE</p>
+          <input placeholder="Buscar..." style="width: 200px"></input>
+          <br>
+          <br>
+          <a class="link" style="text-decoration:none" href="../contato/contato.html">CONECTE-SE</a>
+          
+        </div>
+        <div style="display:flex;flex-direction: row;padding-right: 200px;">
+          <a class="topo" href="#"> <!--Botão que joga a pag ao topo-->
+            <img src="top_icon.png">
+          </a>
+          <div>
+         
+          <img class="mapsImage" src="./mapsss.jpg" alt="">
+        </div>
+          <div class="footerMapDescriptionContainer">
+            <div>
+              <p class="footerTextGrey">Av. Roberto Silveira, 437</p>
+              <p class="footerTextGrey">Centro, Maricá - RJ</p>
+              <p class="footerTextGrey">CEP: 24900-440</p>
+            </div>
+            <div>
+              <div>
+                <a class="footerLink" style="text-decoration:none" href=".//contato/contato.html">Fale Conosco</a>
+              </div>
+              <br>
+              <div>
+                <a href="https://www.google.com.br/maps/dir//Universidade+de+Vassouras+-+Campus+Maric%C3%A1+-+Av.+Roberto+Silveira,+437+-+Centro,+Maric%C3%A1+-+RJ,+24900-440/@-22.9171417,-42.8151942,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x99ed97a377eccf:0x47e3b1c66d2180dc!2m2!1d-42.8130001!2d-22.9171417" class="footerLink">Como Chegar</a>
+              </div>
+              <br>
+              
+            </div>
+          </div>
+  
+        </div>
+      </footer>
+</body>
+</html>

@@ -1,0 +1,209 @@
+/* } estilização do html e body */
+html,body{
+    background-color: rgba(53, 7, 7, 0.966);
+    height: 190%;
+    margin: auto;
+    border: auto;
+        
+}
+/* estilização das imagens */
+.img1{
+    width: 360px;
+    height: 220px;
+    border-radius: 5%;
+    margin-left: 670px;
+    margin-bottom: 90px;
+    margin-top: -650px;
+}
+.img2{
+    width: 360px;
+    height: 220px;
+    border-radius: 5%;
+    margin-left: 670px;
+    margin-top: -200px;
+    
+}
+.img3{
+    width: 360px;
+    height: 220px;
+    border-radius: 5%;
+    margin-left: 670px;
+    margin-top: -700px;
+    margin-bottom: 40px;
+}
+.img4{
+    width: 360px;
+    height: 220px;
+    border-radius: 5%;
+    margin-left: 670px;
+    margin-top: -850px;
+    margin-bottom: 50px;
+}
+.img5{
+  width: 390;
+  height: 220px;
+  border-radius: 5%;
+  margin-left: 670px;
+  margin-top:-1000px;
+  margin-bottom: 50px;
+}
+/* estilização da logo do site */
+.logo{
+    width: 160px;
+    height: 120px;
+  }
+  /* estilização da página do Brasil */
+  .Brasil{
+    margin-right: 10px;
+    margin-bottom: -10px;
+    
+}
+/* estilizaçãp do botão q retorna ao topo */
+.topo{
+    text-decoration: none;
+    position: relative;
+    padding-right: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+   
+  }
+
+  /* estilização P1 */
+.P1{
+    position: relative; 
+    color:white;
+    text-shadow: 0 0 6px black;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    top: 10px;
+    left: 16px;
+    right: 30px;
+    width: 550px;
+    line-height: 20px;
+    height: 50px;
+    
+    
+}
+  /* tamanho dos botões direcionadores */
+.direcionador{
+  width: 150px;
+  height: 110px;
+  text-decoration: none;
+  margin-top: 1800px;
+  margin-left: -490px;
+  
+}
+
+.dire-3{
+  width: 160px;
+  height: 120px;
+  margin-left: 90px;
+  text-decoration: none;
+  margin-top: 1800px;
+  
+}
+.dire-2{
+  width: 160px;
+  height: 120px;
+  margin-left: 60px;
+  text-decoration: none;
+  margin-top: 1800px;
+  
+}
+ /* estilização titulo botoes direcionadores */
+.bts{
+  position: relative;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(252, 251, 251);
+  text-align: left;
+  width: 550px;
+  line-height: 20px;
+  float: left;
+  text-shadow: 0 0 6px black;
+  margin-left: -2px;
+  margin-top: 1710px;
+  text-align: left;
+
+}
+a:hover{
+  opacity: 0.5;
+}
+/* estilização da imagem */
+.imagem{
+    width: 370px;
+    height: 289px;
+    border-radius: 5%;  
+    margin-left: 610px;
+    margin-top: -310px;
+}
+/* estilização do cabeçalho */
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;  
+  
+    background-color: black;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link {
+    text-decoration: none;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+  }
+/* estilização do rodapé */
+  footer {
+    height: 160px; 
+    width:100%;
+    position: fixed;
+    left: 0;
+    bottom: 0; 
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 100px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .footerText {
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+  }
+  .footerTextGrey {
+    margin: 0;
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 0.7;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .footerLink {
+    margin: 0;
+    font-size: 12px;
+    color: lightgrey;
+    opacity: 0.7;
+    cursor: pointer;
+    text-decoration: underline;
+    font-family: Arial, Helvetica, sans-serif
+  }
+  .mapsImage {
+    width: 130px;
+    height: 90px;
+    margin-top: 20px;
+  }
+  .footerMapDescriptionContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif
+  }
+ 
